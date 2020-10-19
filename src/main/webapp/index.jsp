@@ -13,7 +13,7 @@
   </head>
   <body>
    <h1>name ${ko}  </h1>
-   <p><%= request.getParameter("name") %></p> <%-- Получение данных из строки запроса--%>
+   <p><%= request.getParameter("name") %></p>
   <h1> Random namber</h1>
   <%= Math.random()%>
   </body>
